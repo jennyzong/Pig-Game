@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* container */
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 3%;
+    overflow: hidden;
+    color: rgb(229, 250, 201);
+}
+
+.player{
+    background-color: rgb(226, 168, 96);
+}
+
+.player0, .player1{
+    padding: 9rem 8.5rem; 
+}
+
+.active-player{
+    background-color: rgb(127, 190, 202);
+}
+
+/* Elements */
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 0.5rem;
+}
+
+h2{
+    font-size: 70px;
+    margin-bottom: 180px;
+}
+
+.current1{
+    background-color:#559fbf;
+    
+}
+
+.current2{
+    background-color:#f2c675;  
+}
+
+.current1, .current2{
+    font-size: 2rem;
+    padding: 15px 20px;
+    border-radius: 3%;
+    color:aliceblue;;
+}
+
+.current{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* buttons */
+
+button{
+    position: absolute;
+    top: 50px;
+    left: 45%;
+    background-color: white;
+    color: #444;
+    padding: 0.6rem 2.5rem;
+    border-radius: 12%/50%;
+    font-size: 1rem;
+    border: none;
+}
+
+.newGame{
+    top: 20%;
+}
+
+.rollDice{
+    top: 61%;
+}
+
+.hold{
+    top: 68%;
+    left: 46%;
+}
+
+img{
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    width: 100px;
+    height: 100px;
+}
+
+.hidden{
+    display: none;
+}
+
+.winner{
+    background-color: black;
+}
